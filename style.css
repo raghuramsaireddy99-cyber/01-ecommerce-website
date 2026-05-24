@@ -577,6 +577,24 @@ a.btn-link.text-light:after {
   background-color: var(--bs-light);
 }
 
+.card img{
+    height:250px;
+    object-fit:cover;
+}
+
+.card{
+    border-radius:15px;
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+
+
+
 .navbar .megamenu{ padding: 1rem; }
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
